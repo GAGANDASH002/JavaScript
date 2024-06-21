@@ -16,3 +16,14 @@ console.log(num1.toString());//converts to string
 
 //Template Literals
 console.log(`${hello + welcome} your score is ${num1}`);
+
+const newString = "Hello-MyName-IsGagan-Iam-LearningJS"
+
+console.log(newString.replace('Hello','Hey'))
+
+console.log(newString.includes('Boss'))
+
+console.log(newString.split('-'));
+
+anotherString = newString.slice(4,-2)
+console.log(anotherString)
