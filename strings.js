@@ -10,7 +10,7 @@ console.log(outputMsg);//string concatenation
 
 let num="123";
 console.log(Number(num));//converts string to number
-
+  
 let num1= 245;
 console.log(num1.toString());//converts to string
 
