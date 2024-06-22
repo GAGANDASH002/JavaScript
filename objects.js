@@ -135,3 +135,16 @@ for(let key of Object.keys(newCourse)){
 }
 
 console.log(new_course)
+
+// Objects Destructuring
+
+const NewCourse = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Raghav"
+}
+
+//console.log(newCourse.courseInstructor)
+
+const {courseInstructor:instructor} = NewCourse
+console.log(instructor)
