@@ -49,7 +49,7 @@ console.log(channels.find((element) => {
 //concat() and slice()
 
 let names1=["Gagan","Pete","Ram","Maverick","Harman"]
-names2=names.concat(names1)
+let names2=names.concat(names1)
 console.log(names2.slice(2,5))
 
 //spread operator
@@ -74,3 +74,10 @@ console.log(student.join(''))//joins comma-separated value
 
 //Split()
 console.log(student.split('/'));
+
+//Flat()
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+
+const real_another_array = another_array.flat(Infinity)
+console.log(real_another_array);
+
