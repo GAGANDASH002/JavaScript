@@ -38,15 +38,16 @@ if (true){
 
 //console.log(user)
 
-function addone(num){
+// *************************************************** 
+
+console.log(addOne(5))//gives output
+
+function addOne(num){
     return num + 1
 }
 
-addOne(5)
-
-
+addTwo(5)//gives error
 const addTwo = function(num){
     return num + 2 
 }
 
-addTwo(5)
