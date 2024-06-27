@@ -9,8 +9,8 @@ else{
     console.log("greater than 50")
 }
 
-if (2=="2"){
-    console.log("executed");
+if (2=="2"){ 
+       console.log("executed");
 }
 
 // strict equal
