@@ -15,7 +15,7 @@ if (userEmail) {// assumed it is a true value
 // Nullish Coalescing Operator (??): checks for null & undefined
 
 let val1;
-
+ 
 //val1 = 5 ?? 10
 //val1 = null ?? 10
 //val1 = undefined ?? 20
