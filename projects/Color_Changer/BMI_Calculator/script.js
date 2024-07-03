@@ -23,7 +23,7 @@ form.addEventListener('submit',function(e){
             results.innerHTML = `Normal , bmi is : ${bmi}` 
         }
         if (bmi >= 24.9){
-            results.innerHTML = `Underweight , bmi is : ${bmi}` 
+            results.innerHTML = `Overweight , bmi is : ${bmi}` 
         }
     }
     
