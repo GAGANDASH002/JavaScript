@@ -11,7 +11,7 @@ const user = {
         console.log(this) // points to current context i.e current object
     }
 }
-
+  
 // console.log(user.username)
 // console.log(this); 
 console.log(user.getUserDetails())
