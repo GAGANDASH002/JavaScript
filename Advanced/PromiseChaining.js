@@ -20,7 +20,7 @@ promiseFour
 })
 .then((username) => {
     console.log(username)
-})
+}) 
 .catch(function(err){ // checks for any error
     console.log(err)
 })
