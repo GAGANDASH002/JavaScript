@@ -14,7 +14,7 @@ const promiseOne = new Promise(function(resolve,reject){
 promiseOne.then(function(){// .then is connected to resolve()
     console.log("promise consumed")
 })
-
+ 
 // Alternate Syntax
 new Promise(function(resolve,reject){
     setTimeout(function(){
