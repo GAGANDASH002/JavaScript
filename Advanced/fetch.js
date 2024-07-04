@@ -12,7 +12,7 @@
 //}
 
 //getAllUsers()
-
+ 
 // Alternate syntax
 
 fetch('https://api.github.com/users/GAGANDASH002')
