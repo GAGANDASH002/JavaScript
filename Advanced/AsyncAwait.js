@@ -9,7 +9,7 @@ const promiseFive = new Promise(function(resolve,reject){
         }
     }, 1000)
 })
-
+ 
 async function consumePromiseFive(){
     // awaiting for response from the created promise
     // await keeps waiting for a response even if an error is thrown
