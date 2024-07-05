@@ -33,8 +33,8 @@ function User(username,loginCount,isLoggedIn){
 // if new keyword is not used then separate context are not created
 // and data gets overriden
 
-const userOne =  new User("hitesh", 12, true)
-const userTwo =  new User("ChaiAurCode", 11, false)
+const userOne =  new User("Gagan", 12, true)
+const userTwo =  new User("Pawan", 11, false)
 console.log(userOne);
 console.log(userTwo);
 console.log(userOne.constructor)
