@@ -21,7 +21,8 @@ const user = new User('Gagan','abc@gmail.com','1234')
 console.log(user.encryptPassword());
 console.log(user.changeUsername());
 
-// behind the scenes
+// behind the scenes - if classes were not available to us
+// we can still use the concept of prototype - behaviour of JS 
 
 function newUser(username, email, password){
     this.username = username;
